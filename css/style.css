@@ -1,4 +1,6 @@
 /* 自定义风格样式 style.css */
+h3{padding:0px;margin:0px}
+
 img {border: 0 none; outline: medium none;}
 a { color: #008FBF; cursor: pointer; text-decoration: none;}
 a:active, a:visited { outline: medium none;}
@@ -8,7 +10,7 @@ ul,li{ margin:0; padding:0; list-style:none}
 /* Layout 框架
 ------------------------------------------------------------------------*/
 /* Header */
-#header { margin:0; padding:0; height:110px; /* overflow:hidden;  */background:#f5f5f5}
+#header { margin:0; padding:0; height:60px; /* overflow:hidden;  */background:#f5f5f5}
 /* Footer */
 #footer { padding:8px; height:50px; font-weight:bold; color:#ccc; background:#666; }
 /*left menu */
@@ -24,9 +26,8 @@ ul,li{ margin:0; padding:0; list-style:none}
 .login a { color:#CC0000;}
 .login a.help { background:url(../images/help.jpg) no-repeat 0 1px ; padding-left: 18px;}
 
-
 /*导航区域*/
-.mainnav {background-image: url(../images/nav_bg.jpg); border-bottom: 1px solid #A71719; height: 40px; overflow: hidden; width: 100%;}
+.mainnav {background-image: url(../images/nav_bg.jpg); border-bottom: 1px solid #A71719; height: 30px; overflow: hidden; width: 100%;}
 .mainnav ul { margin: auto; width:1050px}
 .mainnav ul li a span.home { background: url(../images/home.gif) no-repeat 0 2px; padding-left:22px; font-size:14px; font-weight:bolder;}
 .mainnav ul li { float: left; font-size: 14px; height: 40px; line-height: 40px;}
