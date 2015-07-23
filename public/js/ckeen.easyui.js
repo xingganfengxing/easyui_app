@@ -92,6 +92,12 @@ App.FunctionTree.init = function(){
                     content: 'Tab Body',
                     closable: true,
                     selected:true,
+                    onSelect:function(title){
+                        alert(title+' is selected');
+                    },
+                    onClick:function(){
+                        alert(111);
+                    },
                     tools: [
                         {
                             iconCls: 'icon-mini-refresh',
