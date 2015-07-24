@@ -111,8 +111,13 @@ App.FunctionTree.init = function(){
 
         }
     });
-};
 
+    $('#aa').accordion('add', {
+        title: 'New Title',
+        content: 'New Content',
+        selected: false
+    });
+};
 
 App.Navigation.init();
 App.FunctionTree.init();

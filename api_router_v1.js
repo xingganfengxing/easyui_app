@@ -6,19 +6,19 @@
 
 var express = require('express');
 
-var complaints = require('./api/v1/complaints');
-var callservice = require('./api/v1/callservice');
-var deviceservice = require('./api/v1/deviceservice');
+//var complaints = require('./api/v1/complaints');
+//var callservice = require('./api/v1/callservice');
+//var deviceservice = require('./api/v1/deviceservice');
 
 var router = express.Router();
 
 
-router.get('/complaints',complaints.index);
+//router.get('/complaints',complaints.index);
 
-router.get('/callservice/getcallnumber',callservice.getcallnum);
+//router.get('/callservice/getcallnumber',callservice.getcallnum);
 
-router.post('/deviceservice/pushdest',deviceservice.pushdest);
+//router.post('/deviceservice/pushdest',deviceservice.pushdest);
 
-router.post('/deviceservice/pushtext',deviceservice.pushtext);
+//router.post('/deviceservice/pushtext',deviceservice.pushtext);
 
 module.exports = router;

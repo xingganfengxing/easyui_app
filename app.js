@@ -22,12 +22,10 @@ var settings = require('./settings');
 var webRouter = require('./web_router');
 var apiRouterV1 = require('./api_router_v1');
 
-// 静态文件目录
-var staticDir = path.join(__dirname, 'public');
-app.use('/public', express.static(staticDir));
 // views engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('views engine', 'html');
+app.set('view engine', 'ejs');
+//app.engine('html', require('ejs-mate'));
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
